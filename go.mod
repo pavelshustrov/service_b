@@ -1,4 +1,4 @@
-module serviceB
+module github.com/pavelshustrov/service_b
 
 go 1.19
 
