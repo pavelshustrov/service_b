@@ -4,7 +4,7 @@ import (
 	"context"
 	"log"
 
-	v1 "serviceB/pkg/client/v1"
+	v1 "github.com/pavelshustrov/service_b/pkg/client/v1"
 )
 
 func main() {
