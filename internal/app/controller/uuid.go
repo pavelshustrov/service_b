@@ -4,6 +4,8 @@ import (
 	"encoding/json"
 	"github.com/google/uuid"
 	"net/http"
+
+	"github.com/pavelshustrov/service_b/client/v1/response"
 )
 
 type Service interface {
@@ -15,7 +17,7 @@ type Controller struct {
 }
 
 func (contr Controller) GetUUID(writer http.ResponseWriter, request *http.Request) {
-	response := ID{
+	response := response.ID{
 		UUID: uuid.New().String(),
 	}
 

@@ -4,7 +4,7 @@ import (
 	"context"
 	"encoding/json"
 	"github.com/go-resty/resty/v2"
-	"github.com/pavelshustrov/service_b/pkg/client/v1/response"
+	"github.com/pavelshustrov/service_b/client/v1/response"
 )
 
 type Client struct {
